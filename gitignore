@@ -1,0 +1,14 @@
+# Packaging
+*.zip
+*.crx
+*.pem
+
+# Python (icon generation)
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
