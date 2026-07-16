@@ -2,6 +2,8 @@
 
 Highlight anything on any page, right-click, and get a plain-English explanation in place.
 
+![Gloss explaining a term in place](docs/demo.gif)
+
 ## Install
 
 1. `chrome://extensions` → enable **Developer mode** → **Load unpacked** → select this folder.
