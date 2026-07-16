@@ -1,8 +1,6 @@
 # Gloss
 
-Highlight anything on any page, right-click, and get a plain-English explanation in place. No sidebar, no tab switch, no copy-paste into a chat window.
-
-Chrome extension, Manifest V3, no build step, no backend.
+Highlight anything on any page, right-click, and get a plain-English explanation in place.
 
 ## Install
 
