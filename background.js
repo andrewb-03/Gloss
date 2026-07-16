@@ -30,6 +30,8 @@ chrome.commands.onCommand.addListener((command, tab) => {
   chrome.tabs.sendMessage(tab.id, { type: "gloss:explain-selection" });
 });
 
+chrome.action.onClicked.addListener(() => chrome.runtime.openOptionsPage());
+
 chrome.runtime.onMessage.addListener((msg) => {
   if (msg.type === "gloss:open-options") chrome.runtime.openOptionsPage();
 });
